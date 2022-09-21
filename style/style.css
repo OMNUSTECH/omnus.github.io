@@ -1,0 +1,116 @@
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;    
+    font-size: 1rem;
+    list-style: 1.6;
+}
+
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.podcast {
+    padding: 1rem;
+}
+
+.pod-article {
+    border-bottom: 1px gray solid;
+    
+}
+
+.pod-article + .pod-article {
+    margin: 1rem 0;
+}
+
+.pod-article:last-child {
+    border: none;
+}
+
+.pod-art-thumb {
+    align-self: center;
+}
+
+.pod-art-thumb-box {
+    max-width: 112px;
+    max-height: 112px;
+    margin: 0 auto;
+}
+
+.pod-article img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.pod-art-header {
+    padding: 0.5rem;
+}
+
+.pod-art-head-date {
+   color: #b5b5b5;
+}
+
+.brand {
+    background: linear-gradient(0deg, #0039b4, #01aca0),url("../images/bg.jpeg");
+    background-blend-mode: multiply,normal;
+    background-position: top;
+    border-radius: 10px;
+    position: relative;
+    margin: 1rem;
+}
+
+.brand-logo {
+    position: sticky;
+    display: block;
+    top: 0px;
+}
+
+@media (min-width:630px) {
+    .app {
+        display: flex;
+    }
+
+    .podcast {
+        flex: 4;
+    }
+
+    .pod-article {
+        display: flex;
+    }
+
+    .pod-art-thumb {
+        flex: 1;
+    }
+
+    .pod-art-header {
+        flex: 3;
+    }
+
+    .brand {
+        min-height: 50vw;
+        flex: 3;
+    }
+
+}
