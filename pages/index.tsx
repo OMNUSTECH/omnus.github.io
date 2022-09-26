@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 
@@ -16,10 +17,9 @@ const Home = () => {
           </p>
 
           <div className={styles.grid}>
-            <a href="/spotify" className={styles.card}>
-              <h2>OMNUS CAST</h2>
-              <p>Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems) </p>
-            </a>
+            <Link href="/spotify" className={styles.card}>
+              <Card title='OMNUS CAST' description='Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems)' />
+            </Link>
           </div>
         </main>
 
@@ -29,6 +29,20 @@ const Home = () => {
       </div>
     </Layout>
 
+  )
+}
+
+type Props = {
+  title: string;
+  description: string; 
+}
+
+const Card = ({title, description} : Props) => {
+  return (
+    <>
+      <h2>{title}</h2>
+      <p>{description}</p>  
+    </>
   )
 }
 
