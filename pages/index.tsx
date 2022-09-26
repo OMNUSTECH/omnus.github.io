@@ -1,41 +1,34 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout from '../components/Layout'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>O M N U S {'{ D E V }'}</title>
-        <meta name="description" content="OMNUS Dev Web Site" />        
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />        
-      </Head>
+    <Layout title='O M N U S { D E V }' description='OMNUS Dev Web Site' mainStyle={styles.omnus}>
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <h1 className={styles.title}>
+          👊🏻😎 O M N U S {` { Dev } `} <br/>by Next.js!
+          </h1>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-        👊🏻😎 O M N U S {` { Dev } `} <br/>by Next.js!
-        </h1>
+          <p className={styles.description}>
+            {' '}
+            <code className={styles.code}>OMNUS/Home: 🏠</code>
+          </p>
 
-        <p className={styles.description}>
-           {' '}
-          <code className={styles.code}>OMNUS/Home: 🏠</code>
-        </p>
+          <div className={styles.grid}>
+            <a href="/spotify" className={styles.card}>
+              <h2>OMNUS CAST</h2>
+              <p>Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems) </p>
+            </a>
+          </div>
+        </main>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Omnus Cast &rarr;</h2>
-            <p>Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems) </p>
-          </a>
-        </div>
-      </main>
+        <footer className={styles.footer}>
+          ✌🏻 Feito por nós para para nós 
+        </footer>
+      </div>
+    </Layout>
 
-      <footer className={styles.footer}>
-          Feito por nós para para nós ✌🏻
-      </footer>
-    </div>
   )
 }
 

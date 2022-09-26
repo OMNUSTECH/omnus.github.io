@@ -1,0 +1,95 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: black;
+    background: white;
+}
+
+.podcast {
+    padding: 1rem;
+}
+
+.pod_article {
+    border-bottom: 1px gray solid;
+    
+}
+
+.pod_article + .pod_article {
+    margin: 1rem 0;
+}
+
+.pod_article:last-child {
+    border: none;
+}
+
+.pod_art_thumb {
+    align-self: center;
+}
+
+.pod_art_thumb_box {
+    max-width: 112px;
+    max-height: 112px;
+    margin: 0 auto;
+}
+
+.pod_article img {
+    width: 100%;
+    height: 100%;
+}
+
+.pod_art_header {
+    padding: 0.5rem;
+}
+
+.pod_art_head_date {
+   color: #b5b5b5;
+}
+
+.brand {
+    background: linear-gradient(0deg, #0039b4, #01aca0),url("../public/images/bg.jpeg");
+    background-blend-mode: multiply,normal;
+    background-position: top;
+    border-radius: 10px;
+    position: relative;
+    margin: 1rem;
+}
+
+.brand_logo {
+    position: sticky;
+    display: block;
+    object-fit: contain;
+    top: 0px;
+}
+
+@media (min-width:630px) {
+    .app {
+        display: flex;
+    }
+
+    .podcast {
+        flex: 4;
+    }
+
+    .pod_article {
+        display: flex;
+    }
+
+    .pod_art_thumb {
+        flex: 1;
+    }
+
+    .pod_art_header {
+        flex: 3;
+    }
+
+    .brand {
+        min-height: 50vw;
+        flex: 3;
+    }
+
+}
+
+.omnus  {
+    background: white;
+ }
