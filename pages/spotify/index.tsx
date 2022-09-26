@@ -9,7 +9,7 @@ const Spotify = () => {
             <div className={styles.app}>
                 <aside className={styles.brand}>
 
-                        <img src="/images/omnus-cast-fone.png" className={styles.brand_logo} alt="Omnus Cast logo" />
+                        <Image src="/images/omnus-cast-fone.png" className={styles.brand_logo}  layout='fill' objectFit='contain' alt="Omnus Cast logo" />
 
                     
                 </aside> 

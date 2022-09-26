@@ -17,7 +17,7 @@ const Home = () => {
           </p>
 
           <div className={styles.grid}>
-            <Link href="/spotify" className={styles.card}>
+            <Link  href="/spotify"  passHref>              
               <Card title='OMNUS CAST' description='Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems)' />
             </Link>
           </div>
@@ -35,14 +35,15 @@ const Home = () => {
 type Props = {
   title: string;
   description: string; 
+  href?: string
 }
 
-const Card = ({title, description} : Props) => {
-  return (
-    <>
+const Card = ( {title, description ,href:passHref  } : Props ) => {
+  return ( 
+    <a href={passHref} className={styles.card} >
       <h2>{title}</h2>
       <p>{description}</p>  
-    </>
+    </a>
   )
 }
 
