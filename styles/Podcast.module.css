@@ -33,6 +33,11 @@
     margin: 0 auto;
 }
 
+
+.pod_art_thumb_box img {
+    border-radius: 0.5rem;
+}
+
 .pod_article img {
     width: 100%;
     height: 100%;
