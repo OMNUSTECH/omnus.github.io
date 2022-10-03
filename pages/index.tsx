@@ -4,11 +4,11 @@ import Layout from '../components/Layout'
 
 const Home = () => {
   return (
-    <Layout title='O M N U S { D E V }' description='OMNUS Dev Web Site' mainStyle={styles.omnus}>
+    <Layout title='O M N U S { TECH }' description='OMNUS Dev Web Site' mainStyle={styles.omnus}>
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>
-          👊🏻😎 O M N U S {` { Dev } `} <br/>by Next.js!
+          👊🏻😎 O M N U S {` { TECH } `} <br/>by Next.js!
           </h1>
 
           <p className={styles.description}>
@@ -17,14 +17,14 @@ const Home = () => {
           </p>
 
           <div className={styles.grid}>
-            <Link  href="/spotify"  passHref>              
+            <Link  href="/podcast"  passHref>              
               <Card title='OMNUS CAST' description='Podcast da Omnus com foco em Desenvolvimento ⭕️ (Outsystems)' />
             </Link>
           </div>
         </main>
 
         <footer className={styles.footer}>
-          ✌🏻 Feito por nós para para nós 
+          ✌🏻 Feito por nós para você 
         </footer>
       </div>
     </Layout>
