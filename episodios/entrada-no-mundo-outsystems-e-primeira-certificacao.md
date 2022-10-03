@@ -1,8 +1,9 @@
 ---
-title: 'Two Forms of Pre-rendering'
-date: '2020-01-01'
-summary: Ep01 - Vamos falar um pouco como foi entrar no mundo low code e como foi tirar primeira certificação
-thumb: 
+podcast: '01'
+title: 'Entrada no Mundo Low Code e Primeiro Certificação'
+date: '2022-07-28'
+summary: 'Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.'
+thumbnail: '/podcast/ep01-omnus-thumb-podcast.png'
 ---
 
 Oi seus lindos, bem vindos ao nosso primeiro episodio do omnus cast, começamos essa iniciativa
