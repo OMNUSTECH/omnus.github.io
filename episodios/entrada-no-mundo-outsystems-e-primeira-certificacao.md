@@ -1,5 +1,5 @@
 ---
-podcast: '01'
+podcast: 'ep01'
 title: 'Entrada no Mundo Low Code e Primeiro Certificação'
 date: '2022-07-28'
 summary: 'Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.'
