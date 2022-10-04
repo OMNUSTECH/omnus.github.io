@@ -3,7 +3,10 @@ import Image from "next/image";
 import { GetStaticProps } from "next";
 import styles from "../../styles/Podcast.module.css";
 import { getSortedEpisodiosData, Episodios } from "../../libs/episodios";
+import {generateRssFeed} from "../../libs/rss";
 import Date from "../../components/Date";
+import Link from "next/link";
+
 
 type Props = {
   allEpisodiosData: Episodios[];
@@ -44,9 +47,13 @@ const Podcast = ({ allEpisodiosData }: Props) => {
                   <h2 className={styles.pod_art_head_title}>
                     {episodio.title}
                   </h2>
-                  <p  className={styles.pod_art_head_descri}>
-                    {episodio.summary}
-                  </p>
+                  <Link href={`/podcast/${episodio.id}`}>
+                    <a href="">
+                    <p  className={styles.pod_art_head_descri}>
+                      {episodio.summary}
+                    </p>
+                    </a>
+                  </Link>
                 </header>
               </article>
             );
@@ -59,6 +66,9 @@ const Podcast = ({ allEpisodiosData }: Props) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const allEpisodiosData: Episodios[] = getSortedEpisodiosData();
+
+  generateRssFeed()
+
   return {
     props: {
       allEpisodiosData,

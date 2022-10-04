@@ -1,0 +1,29 @@
+
+
+.detail {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.detail_thumb_box {
+    max-width: 212px;
+    max-height: 212px;
+    margin: 0 auto;
+}
+
+.detail_thumb_box img {
+    border-radius: 10px;
+    display: block;
+}
+
+
+.detail_head_date {
+    color: #b5b5b5;
+ }
+
+ .detail_head_title {
+    padding: 1rem 0;
+ }

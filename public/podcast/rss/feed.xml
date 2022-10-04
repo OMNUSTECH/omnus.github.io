@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>OMNUS CAST</title>
+        <link>https://omnustech.github.io</link>
+        <description>Podcast da OMNUS para compartilhar conhecimento</description>
+        <lastBuildDate>Tue, 04 Oct 2022 19:32:44 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Next.js using Feed</generator>
+        <image>
+            <title>OMNUS CAST</title>
+            <url>https://omnustech.github.io/images/omus-cast-logo.png</url>
+            <link>https://omnustech.github.io</link>
+        </image>
+        <copyright>All rights reserved 2022, OMNUS</copyright>
+        <item>
+            <title><![CDATA[Entrada no Mundo Low Code e Primeiro Certificação]]></title>
+            <link>https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</link>
+            <guid>https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</guid>
+            <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.]]></description>
+            <content:encoded><![CDATA[Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.]]></content:encoded>
+            <author>developer@omnus.com.br (OMNUS TECH)</author>
+        </item>
+    </channel>
+</rss>

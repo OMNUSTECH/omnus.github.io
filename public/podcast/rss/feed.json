@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "OMNUS CAST",
+    "home_page_url": "https://omnustech.github.io",
+    "feed_url": "https://omnustech.github.io/rss/feed.json",
+    "description": "Podcast da OMNUS para compartilhar conhecimento",
+    "icon": "https://omnustech.github.io/images/omus-cast-logo.png",
+    "author": {
+        "name": "OMNUS TECH",
+        "url": "https://omnustech.github.io"
+    },
+    "items": [
+        {
+            "id": "https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao",
+            "content_html": "Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.",
+            "url": "https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao",
+            "title": "Entrada no Mundo Low Code e Primeiro Certificação",
+            "summary": "Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.",
+            "date_modified": "2022-07-28T00:00:00.000Z",
+            "author": {
+                "name": "OMNUS TECH",
+                "url": "https://omnustech.github.io"
+            }
+        }
+    ]
+}
