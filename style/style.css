@@ -114,3 +114,30 @@ body {
     }
 
 }
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.detail-thumb-box img {
+    max-width: 212px;
+    max-height: 212px;
+    margin: 0 auto;
+}
+
+.detail-thumb-box img {
+    border-radius: 10px;
+    display: block;
+}
+
+
+.detail-head-date {
+    color: #b5b5b5;
+ }
+
+ .detail-head-title {
+    padding: 1rem 0;
+ }
