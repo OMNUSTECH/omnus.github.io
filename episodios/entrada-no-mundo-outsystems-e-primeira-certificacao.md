@@ -4,6 +4,11 @@ title: 'Entrada no Mundo Low Code e Primeiro Certificação'
 date: '2022-07-28'
 summary: 'Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.'
 thumbnail: '/podcast/ep01-omnus-thumb-podcast.png'
+contributor:
+- name: 'Diógenes'
+  email: 'diogenes.dauster@omnus.com.br'
+- name: 'Ivanilo'
+  email: 'ivanilo.menezes@omnus.com.br'  
 ---
 
 Oi seus lindos, bem vindos ao nosso primeiro episodio do omnus cast, começamos essa iniciativa
