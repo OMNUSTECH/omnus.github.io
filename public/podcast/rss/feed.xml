@@ -1,26 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
-        <title>OMNUS CAST</title>
-        <link>https://omnustech.github.io</link>
-        <description>Podcast da OMNUS para compartilhar conhecimento</description>
-        <lastBuildDate>Tue, 04 Oct 2022 19:32:44 GMT</lastBuildDate>
-        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-        <generator>Next.js using Feed</generator>
+        <title><![CDATA[OMNUS CAST]]></title>
+        <description><![CDATA[Podcast da OMNUS para compartilhar conhecimento]]></description>
+        <link>https://omnustech.github.io/podcast</link>
         <image>
-            <title>OMNUS CAST</title>
             <url>https://omnustech.github.io/images/omus-cast-logo.png</url>
-            <link>https://omnustech.github.io</link>
+            <title>OMNUS CAST</title>
+            <link>https://omnustech.github.io/podcast</link>
         </image>
-        <copyright>All rights reserved 2022, OMNUS</copyright>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 05 Oct 2022 14:50:07 GMT</lastBuildDate>
+        <atom:link href="https://omnustech.github.io/rss/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 05 Oct 2022 14:50:07 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2022, OMNUS]]></copyright>
+        <language><![CDATA[pt-br]]></language>
+        <category><![CDATA[Tecnologia]]></category>
+        <category><![CDATA[Technology]]></category>
+        <category><![CDATA[Outsystems]]></category>
+        <itunes:subtitle>Podcast da OMNUS para compartilhar conhecimento</itunes:subtitle>
+        <itunes:author>OMNUS TECH</itunes:author>
+        <itunes:summary>Podcast da OMNUS para compartilhar conhecimento</itunes:summary>
+        <itunes:owner>
+            <itunes:name>OMNUS TECH</itunes:name>
+            <itunes:email>developer@omnus.com.br</itunes:email>
+        </itunes:owner>
+        <itunes:category text="Technology">
+            <itunes:category text="Outsystems"/>
+        </itunes:category>
         <item>
             <title><![CDATA[Entrada no Mundo Low Code e Primeiro Certificação]]></title>
-            <link>https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</link>
-            <guid>https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</guid>
-            <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.]]></description>
-            <content:encoded><![CDATA[Vamos falar um pouco da entrada no mundo low code de alguns membros da OMNUS e como foi tirar sua primeira certificação.]]></content:encoded>
-            <author>developer@omnus.com.br (OMNUS TECH)</author>
+            <link>https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</link>
+            <guid isPermaLink="false">https://omnustech.github.io/podcast/entrada-no-mundo-outsystems-e-primeira-certificacao</guid>
+            <category><![CDATA[Tecnologia]]></category>
+            <category><![CDATA[Technology]]></category>
+            <category><![CDATA[Outsystems]]></category>
+            <dc:creator><![CDATA[OMNUS TECH]]></dc:creator>
+            <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

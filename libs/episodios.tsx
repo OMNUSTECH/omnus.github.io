@@ -38,7 +38,6 @@ export function getSortedEpisodiosData(): Episodios[] {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
-
         return {
             id,
             ...matterResult.data
